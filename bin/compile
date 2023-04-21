@@ -5,4 +5,4 @@
 
 echo "------> Generating printenv file to generate google-credentials.json at startup"
 
-printenv GOOGLE_CREDENTIALS > google-credentials.json
+$printenv GOOGLE_CREDENTIALS > google-credentials.json
