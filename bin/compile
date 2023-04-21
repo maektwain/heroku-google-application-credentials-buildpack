@@ -6,8 +6,8 @@
 echo "------> Generating printenv file to generate google-credentials.json at startup"
 
 CREDS=$(printenv GOOGLE_CREDENTIALS)
-echo $CREDS
+ls 
 echo $CREDS > google-credentials.json
-
+cat google-credentials.json
 
 echo "------> File generation printenv file to generate google-credentials.json finished"
